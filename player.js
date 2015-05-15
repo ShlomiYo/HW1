@@ -73,8 +73,6 @@ exports.createPlayer = function(name) {
 }
 
 
-//############# Call Back ############
-
 function golPlusInner(){
 
 	this.msg += "\ngolPlusEvent Was Called, The Player: " + this.name + " Score Is: " + this.balance; // saveing the msg to the current object
